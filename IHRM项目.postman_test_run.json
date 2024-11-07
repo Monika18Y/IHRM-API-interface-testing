@@ -1,0 +1,1411 @@
+{
+	"id": "4e099b10-2022-4f1e-ad8b-a05b4fd5132c",
+	"name": "IHRM项目",
+	"timestamp": "2024-11-07T04:49:41.391Z",
+	"collection_id": "39496484-5a092d6e-1930-4739-8e7d-ee8e984950c3",
+	"folder_id": 0,
+	"environment_id": "39496484-b66c2586-f8ad-46dc-b429-af7b74b66483",
+	"totalPass": 105,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2024-11-07T04:49:28.985Z",
+	"totalFail": 3,
+	"results": [
+		{
+			"id": "2e280d96-c377-4fe8-a8b3-3beb150ac550",
+			"name": "登陆成功",
+			"url": "https://ihrm2-test.itheima.net/api/sys/login",
+			"time": 315,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"断言响应状态码预期为 200": true,
+				"断言success预期为 true": true,
+				"断言code预期为 10000": true,
+				"断言message预期为 操作成功！": true
+			},
+			"testPassFailCounts": {
+				"断言响应状态码预期为 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"断言success预期为 true": {
+					"pass": 1,
+					"fail": 0
+				},
+				"断言code预期为 10000": {
+					"pass": 1,
+					"fail": 0
+				},
+				"断言message预期为 操作成功！": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				315
+			],
+			"allTests": [
+				{
+					"断言响应状态码预期为 200": true,
+					"断言success预期为 true": true,
+					"断言code预期为 10000": true,
+					"断言message预期为 操作成功！": true
+				}
+			]
+		},
+		{
+			"id": "f0b6bb16-a394-47c8-bb2b-2eca99cb3847",
+			"name": "手机未注册",
+			"url": "https://ihrm2-test.itheima.net/api/sys/login",
+			"time": 302,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"断言响应状态码预期为 200": true,
+				"断言success预期为 false": true,
+				"断言code预期为 20001": true,
+				"断言message预期为 用户名或密码错误": true
+			},
+			"testPassFailCounts": {
+				"断言响应状态码预期为 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"断言success预期为 false": {
+					"pass": 1,
+					"fail": 0
+				},
+				"断言code预期为 20001": {
+					"pass": 1,
+					"fail": 0
+				},
+				"断言message预期为 用户名或密码错误": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				302
+			],
+			"allTests": [
+				{
+					"断言响应状态码预期为 200": true,
+					"断言success预期为 false": true,
+					"断言code预期为 20001": true,
+					"断言message预期为 用户名或密码错误": true
+				}
+			]
+		},
+		{
+			"id": "65db529a-aadc-410c-8ea0-c8bb3d784fa2",
+			"name": "密码错误",
+			"url": "https://ihrm2-test.itheima.net/api/sys/login",
+			"time": 310,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"断言响应状态码预期为 200": true,
+				"断言success预期为 false": true,
+				"断言code预期为 20001": true,
+				"断言message预期为 用户名或密码错误": true
+			},
+			"testPassFailCounts": {
+				"断言响应状态码预期为 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"断言success预期为 false": {
+					"pass": 1,
+					"fail": 0
+				},
+				"断言code预期为 20001": {
+					"pass": 1,
+					"fail": 0
+				},
+				"断言message预期为 用户名或密码错误": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				310
+			],
+			"allTests": [
+				{
+					"断言响应状态码预期为 200": true,
+					"断言success预期为 false": true,
+					"断言code预期为 20001": true,
+					"断言message预期为 用户名或密码错误": true
+				}
+			]
+		},
+		{
+			"id": "0152015d-ee6a-47f4-a40a-b420249d436b",
+			"name": "手机号为空",
+			"url": "https://ihrm2-test.itheima.net/api/sys/login",
+			"time": 330,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"断言响应状态码预期为 200": true,
+				"断言success预期为 false": true,
+				"断言code预期为 20001": true,
+				"断言message预期为 用户名或密码错误": true
+			},
+			"testPassFailCounts": {
+				"断言响应状态码预期为 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"断言success预期为 false": {
+					"pass": 1,
+					"fail": 0
+				},
+				"断言code预期为 20001": {
+					"pass": 1,
+					"fail": 0
+				},
+				"断言message预期为 用户名或密码错误": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				330
+			],
+			"allTests": [
+				{
+					"断言响应状态码预期为 200": true,
+					"断言success预期为 false": true,
+					"断言code预期为 20001": true,
+					"断言message预期为 用户名或密码错误": true
+				}
+			]
+		},
+		{
+			"id": "f77d7cb4-9706-4142-9ee5-d1780fbbe1d3",
+			"name": "手机号含有字母、特殊字符",
+			"url": "https://ihrm2-test.itheima.net/api/sys/login",
+			"time": 353,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"断言响应状态码预期为 200": true,
+				"断言success预期为 false": true,
+				"断言code预期为 20001": true,
+				"断言message预期为 用户名或密码错误": true
+			},
+			"testPassFailCounts": {
+				"断言响应状态码预期为 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"断言success预期为 false": {
+					"pass": 1,
+					"fail": 0
+				},
+				"断言code预期为 20001": {
+					"pass": 1,
+					"fail": 0
+				},
+				"断言message预期为 用户名或密码错误": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				353
+			],
+			"allTests": [
+				{
+					"断言响应状态码预期为 200": true,
+					"断言success预期为 false": true,
+					"断言code预期为 20001": true,
+					"断言message预期为 用户名或密码错误": true
+				}
+			]
+		},
+		{
+			"id": "8c50c488-9de5-4550-b5c5-e005e79f2dce",
+			"name": "手机号12位",
+			"url": "https://ihrm2-test.itheima.net/api/sys/login",
+			"time": 313,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"断言响应状态码预期为 200": true,
+				"断言success预期为 false": true,
+				"断言code预期为 20001": true,
+				"断言message预期为 用户名或密码错误": true
+			},
+			"testPassFailCounts": {
+				"断言响应状态码预期为 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"断言success预期为 false": {
+					"pass": 1,
+					"fail": 0
+				},
+				"断言code预期为 20001": {
+					"pass": 1,
+					"fail": 0
+				},
+				"断言message预期为 用户名或密码错误": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				313
+			],
+			"allTests": [
+				{
+					"断言响应状态码预期为 200": true,
+					"断言success预期为 false": true,
+					"断言code预期为 20001": true,
+					"断言message预期为 用户名或密码错误": true
+				}
+			]
+		},
+		{
+			"id": "afe64caf-cfbd-4d3b-8852-e5b43b05dc07",
+			"name": "手机号10位",
+			"url": "https://ihrm2-test.itheima.net/api/sys/login",
+			"time": 314,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"断言响应状态码预期为 200": true,
+				"断言success预期为 false": true,
+				"断言code预期为 20001": true,
+				"断言message预期为 用户名或密码错误": true
+			},
+			"testPassFailCounts": {
+				"断言响应状态码预期为 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"断言success预期为 false": {
+					"pass": 1,
+					"fail": 0
+				},
+				"断言code预期为 20001": {
+					"pass": 1,
+					"fail": 0
+				},
+				"断言message预期为 用户名或密码错误": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				314
+			],
+			"allTests": [
+				{
+					"断言响应状态码预期为 200": true,
+					"断言success预期为 false": true,
+					"断言code预期为 20001": true,
+					"断言message预期为 用户名或密码错误": true
+				}
+			]
+		},
+		{
+			"id": "5d5477e9-b14b-4c98-af1a-3e3408db9430",
+			"name": "密码为空",
+			"url": "https://ihrm2-test.itheima.net/api/sys/login",
+			"time": 342,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"断言响应状态码预期为 200": true,
+				"断言success预期为 false": true,
+				"断言code预期为 20001": true,
+				"断言message预期为 用户名或密码错误": true
+			},
+			"testPassFailCounts": {
+				"断言响应状态码预期为 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"断言success预期为 false": {
+					"pass": 1,
+					"fail": 0
+				},
+				"断言code预期为 20001": {
+					"pass": 1,
+					"fail": 0
+				},
+				"断言message预期为 用户名或密码错误": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				342
+			],
+			"allTests": [
+				{
+					"断言响应状态码预期为 200": true,
+					"断言success预期为 false": true,
+					"断言code预期为 20001": true,
+					"断言message预期为 用户名或密码错误": true
+				}
+			]
+		},
+		{
+			"id": "d23289e1-10c0-48b0-9a4f-a898256dfa78",
+			"name": "密码含有字母、特殊字符",
+			"url": "https://ihrm2-test.itheima.net/api/sys/login",
+			"time": 299,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"断言响应状态码预期为 200": true,
+				"断言success预期为 false": true,
+				"断言code预期为 20001": true,
+				"断言message预期为 用户名或密码错误": true
+			},
+			"testPassFailCounts": {
+				"断言响应状态码预期为 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"断言success预期为 false": {
+					"pass": 1,
+					"fail": 0
+				},
+				"断言code预期为 20001": {
+					"pass": 1,
+					"fail": 0
+				},
+				"断言message预期为 用户名或密码错误": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				299
+			],
+			"allTests": [
+				{
+					"断言响应状态码预期为 200": true,
+					"断言success预期为 false": true,
+					"断言code预期为 20001": true,
+					"断言message预期为 用户名或密码错误": true
+				}
+			]
+		},
+		{
+			"id": "309f436d-c47e-4f9e-9841-69bdd7b4c04d",
+			"name": "密码1位",
+			"url": "https://ihrm2-test.itheima.net/api/sys/login",
+			"time": 326,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"断言响应状态码预期为 200": true,
+				"断言success预期为 false": true,
+				"断言code预期为 20001": true,
+				"断言message预期为 用户名或密码错误": true
+			},
+			"testPassFailCounts": {
+				"断言响应状态码预期为 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"断言success预期为 false": {
+					"pass": 1,
+					"fail": 0
+				},
+				"断言code预期为 20001": {
+					"pass": 1,
+					"fail": 0
+				},
+				"断言message预期为 用户名或密码错误": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				326
+			],
+			"allTests": [
+				{
+					"断言响应状态码预期为 200": true,
+					"断言success预期为 false": true,
+					"断言code预期为 20001": true,
+					"断言message预期为 用户名或密码错误": true
+				}
+			]
+		},
+		{
+			"id": "d93045be-b7b1-4936-8f70-9e954e2a6ff0",
+			"name": "密码100位",
+			"url": "https://ihrm2-test.itheima.net/api/sys/login",
+			"time": 302,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"断言响应状态码预期为 200": true,
+				"断言success预期为 false": true,
+				"断言code预期为 20001": true,
+				"断言message预期为 用户名或密码错误": true
+			},
+			"testPassFailCounts": {
+				"断言响应状态码预期为 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"断言success预期为 false": {
+					"pass": 1,
+					"fail": 0
+				},
+				"断言code预期为 20001": {
+					"pass": 1,
+					"fail": 0
+				},
+				"断言message预期为 用户名或密码错误": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				302
+			],
+			"allTests": [
+				{
+					"断言响应状态码预期为 200": true,
+					"断言success预期为 false": true,
+					"断言code预期为 20001": true,
+					"断言message预期为 用户名或密码错误": true
+				}
+			]
+		},
+		{
+			"id": "09b11860-c1c8-41d2-b241-7ebeff5eb219",
+			"name": "多参：多出abc",
+			"url": "https://ihrm2-test.itheima.net/api/sys/login",
+			"time": 314,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"断言响应状态码预期为 200": true,
+				"断言success预期为 true": true,
+				"断言code预期为 10000": true,
+				"断言message预期为 操作成功！": true
+			},
+			"testPassFailCounts": {
+				"断言响应状态码预期为 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"断言success预期为 true": {
+					"pass": 1,
+					"fail": 0
+				},
+				"断言code预期为 10000": {
+					"pass": 1,
+					"fail": 0
+				},
+				"断言message预期为 操作成功！": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				314
+			],
+			"allTests": [
+				{
+					"断言响应状态码预期为 200": true,
+					"断言success预期为 true": true,
+					"断言code预期为 10000": true,
+					"断言message预期为 操作成功！": true
+				}
+			]
+		},
+		{
+			"id": "04cb953d-30e3-4142-81f5-21dd0e75ab22",
+			"name": "少参：缺少-mobile",
+			"url": "https://ihrm2-test.itheima.net/api/sys/login",
+			"time": 328,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"断言响应状态码预期为 200": true,
+				"断言success预期为 false": true,
+				"断言code预期为 20001": true,
+				"断言message预期为 用户名或密码错误": true
+			},
+			"testPassFailCounts": {
+				"断言响应状态码预期为 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"断言success预期为 false": {
+					"pass": 1,
+					"fail": 0
+				},
+				"断言code预期为 20001": {
+					"pass": 1,
+					"fail": 0
+				},
+				"断言message预期为 用户名或密码错误": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				328
+			],
+			"allTests": [
+				{
+					"断言响应状态码预期为 200": true,
+					"断言success预期为 false": true,
+					"断言code预期为 20001": true,
+					"断言message预期为 用户名或密码错误": true
+				}
+			]
+		},
+		{
+			"id": "0a403d0b-366e-4826-ab65-eb0b02ae51cf",
+			"name": "无参",
+			"url": "https://ihrm2-test.itheima.net/api/sys/login",
+			"time": 299,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"断言响应状态码预期为 200": true,
+				"断言success预期为 false": true,
+				"断言code预期为 99999": true,
+				"断言message预期为 抱歉，系统繁忙，请稍后重试！": true
+			},
+			"testPassFailCounts": {
+				"断言响应状态码预期为 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"断言success预期为 false": {
+					"pass": 1,
+					"fail": 0
+				},
+				"断言code预期为 99999": {
+					"pass": 1,
+					"fail": 0
+				},
+				"断言message预期为 抱歉，系统繁忙，请稍后重试！": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				299
+			],
+			"allTests": [
+				{
+					"断言响应状态码预期为 200": true,
+					"断言success预期为 false": true,
+					"断言code预期为 99999": true,
+					"断言message预期为 抱歉，系统繁忙，请稍后重试！": true
+				}
+			]
+		},
+		{
+			"id": "50ab58f1-53fa-4b5a-833c-1fa729bd6443",
+			"name": "错误参数：修改 mobile 为 abc",
+			"url": "https://ihrm2-test.itheima.net/api/sys/login",
+			"time": 330,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"断言响应状态码预期为 200": true,
+				"断言success预期为 false": true,
+				"断言code预期为 20001": true,
+				"断言message预期为 用户名或密码错误": true
+			},
+			"testPassFailCounts": {
+				"断言响应状态码预期为 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"断言success预期为 false": {
+					"pass": 1,
+					"fail": 0
+				},
+				"断言code预期为 20001": {
+					"pass": 1,
+					"fail": 0
+				},
+				"断言message预期为 用户名或密码错误": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				330
+			],
+			"allTests": [
+				{
+					"断言响应状态码预期为 200": true,
+					"断言success预期为 false": true,
+					"断言code预期为 20001": true,
+					"断言message预期为 用户名或密码错误": true
+				}
+			]
+		},
+		{
+			"id": "55a92a70-6de2-42d6-9f84-c4e17320f82f",
+			"name": "登陆成功-获取令牌",
+			"url": "https://ihrm2-test.itheima.net/api/sys/login",
+			"time": 493,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				493
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "4c5b4fc6-ae37-4a63-a005-1809b2c7aa78",
+			"name": "添加成功-姓名+手机号+工号",
+			"url": "https://ihrm2-test.itheima.net/api/sys/user",
+			"time": 304,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"断言响应状态码预期为 200": true,
+				"断言success预期为 true": true,
+				"断言code预期为 10000": true,
+				"断言message预期为 操作成功！": true
+			},
+			"testPassFailCounts": {
+				"断言响应状态码预期为 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"断言success预期为 true": {
+					"pass": 1,
+					"fail": 0
+				},
+				"断言code预期为 10000": {
+					"pass": 1,
+					"fail": 0
+				},
+				"断言message预期为 操作成功！": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				304
+			],
+			"allTests": [
+				{
+					"断言响应状态码预期为 200": true,
+					"断言success预期为 true": true,
+					"断言code预期为 10000": true,
+					"断言message预期为 操作成功！": true
+				}
+			]
+		},
+		{
+			"id": "14d51419-9c07-421a-89e1-d7bf02182f9b",
+			"name": "添加成功-姓名+手机号+工号+聘用形式",
+			"url": "https://ihrm2-test.itheima.net/api/sys/user",
+			"time": 328,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"断言响应状态码预期为 200": true,
+				"断言success预期为 true": true,
+				"断言code预期为 10000": true,
+				"断言message预期为 操作成功！": true
+			},
+			"testPassFailCounts": {
+				"断言响应状态码预期为 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"断言success预期为 true": {
+					"pass": 1,
+					"fail": 0
+				},
+				"断言code预期为 10000": {
+					"pass": 1,
+					"fail": 0
+				},
+				"断言message预期为 操作成功！": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				328
+			],
+			"allTests": [
+				{
+					"断言响应状态码预期为 200": true,
+					"断言success预期为 true": true,
+					"断言code预期为 10000": true,
+					"断言message预期为 操作成功！": true
+				}
+			]
+		},
+		{
+			"id": "98c3e129-3618-4d8e-baf8-c6d367bc84b6",
+			"name": "添加成功-全部参数",
+			"url": "https://ihrm2-test.itheima.net/api/sys/user",
+			"time": 313,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"断言响应状态码预期为 200": true,
+				"断言success预期为 true": true,
+				"断言code预期为 10000": true,
+				"断言message预期为 操作成功！": true
+			},
+			"testPassFailCounts": {
+				"断言响应状态码预期为 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"断言success预期为 true": {
+					"pass": 1,
+					"fail": 0
+				},
+				"断言code预期为 10000": {
+					"pass": 1,
+					"fail": 0
+				},
+				"断言message预期为 操作成功！": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				313
+			],
+			"allTests": [
+				{
+					"断言响应状态码预期为 200": true,
+					"断言success预期为 true": true,
+					"断言code预期为 10000": true,
+					"断言message预期为 操作成功！": true
+				}
+			]
+		},
+		{
+			"id": "ca83a7fe-cc66-4adc-b365-b6ce78d952d0",
+			"name": "添加失败-手机号已存在",
+			"url": "https://ihrm2-test.itheima.net/api/sys/user",
+			"time": 312,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"断言响应状态码预期为 200": true,
+				"断言success预期为 false": true,
+				"断言code预期为 99999": true,
+				"断言message预期为 当前手机号码已存在": true
+			},
+			"testPassFailCounts": {
+				"断言响应状态码预期为 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"断言success预期为 false": {
+					"pass": 1,
+					"fail": 0
+				},
+				"断言code预期为 99999": {
+					"pass": 1,
+					"fail": 0
+				},
+				"断言message预期为 当前手机号码已存在": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				312
+			],
+			"allTests": [
+				{
+					"断言响应状态码预期为 200": true,
+					"断言success预期为 false": true,
+					"断言code预期为 99999": true,
+					"断言message预期为 当前手机号码已存在": true
+				}
+			]
+		},
+		{
+			"id": "032d5934-acc8-4f3f-b685-2a656483d82c",
+			"name": "添加失败-工号已存在",
+			"url": "https://ihrm2-test.itheima.net/api/sys/user",
+			"time": 308,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"断言响应状态码预期为 200": true,
+				"断言success预期为 false": false,
+				"断言code预期为 99999": false,
+				"断言message预期为 当前手机号码已存在": false
+			},
+			"testPassFailCounts": {
+				"断言响应状态码预期为 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"断言success预期为 false": {
+					"pass": 0,
+					"fail": 1
+				},
+				"断言code预期为 99999": {
+					"pass": 0,
+					"fail": 1
+				},
+				"断言message预期为 当前手机号码已存在": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				308
+			],
+			"allTests": [
+				{
+					"断言响应状态码预期为 200": true,
+					"断言success预期为 false": false,
+					"断言code预期为 99999": false,
+					"断言message预期为 当前手机号码已存在": false
+				}
+			]
+		},
+		{
+			"id": "6a069a3d-a603-4035-b7fd-c7acd163ed73",
+			"name": "登陆成功-获取令牌",
+			"url": "https://ihrm2-test.itheima.net/api/sys/login",
+			"time": 291,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				291
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "f32e60c8-45ae-444e-98a3-d086b2f4eb36",
+			"name": "员工id存在",
+			"url": "https://ihrm2-test.itheima.net/api/sys/user/1854382397496258560",
+			"time": 314,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"断言响应状态码预期为 200": true,
+				"断言success预期为 true": true,
+				"断言code预期为 10000": true,
+				"断言message预期为 操作成功！": true
+			},
+			"testPassFailCounts": {
+				"断言响应状态码预期为 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"断言success预期为 true": {
+					"pass": 1,
+					"fail": 0
+				},
+				"断言code预期为 10000": {
+					"pass": 1,
+					"fail": 0
+				},
+				"断言message预期为 操作成功！": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				314
+			],
+			"allTests": [
+				{
+					"断言响应状态码预期为 200": true,
+					"断言success预期为 true": true,
+					"断言code预期为 10000": true,
+					"断言message预期为 操作成功！": true
+				}
+			]
+		},
+		{
+			"id": "76701eb3-7b7f-4efc-b672-0fe0e3c85edc",
+			"name": "员工id不存在",
+			"url": "https://ihrm2-test.itheima.net/api/sys/user/1066370",
+			"time": 315,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"断言响应状态码预期为 200": true,
+				"断言success预期为 false": true,
+				"断言code预期为 99999": true,
+				"断言message预期为 抱歉，系统繁忙，请稍后重试！": true
+			},
+			"testPassFailCounts": {
+				"断言响应状态码预期为 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"断言success预期为 false": {
+					"pass": 1,
+					"fail": 0
+				},
+				"断言code预期为 99999": {
+					"pass": 1,
+					"fail": 0
+				},
+				"断言message预期为 抱歉，系统繁忙，请稍后重试！": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				315
+			],
+			"allTests": [
+				{
+					"断言响应状态码预期为 200": true,
+					"断言success预期为 false": true,
+					"断言code预期为 99999": true,
+					"断言message预期为 抱歉，系统繁忙，请稍后重试！": true
+				}
+			]
+		},
+		{
+			"id": "fd05d601-4701-4e08-8490-c5c862ce2a4a",
+			"name": "登陆成功-获取令牌",
+			"url": "https://ihrm2-test.itheima.net/api/sys/login",
+			"time": 295,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				295
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "8c1bba34-055f-41fd-94fe-8a2b81367532",
+			"name": "添加员工",
+			"url": "https://ihrm2-test.itheima.net/api/sys/user",
+			"time": 304,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"断言响应状态码预期为 200": true,
+				"断言success预期为 true": true,
+				"断言code预期为 10000": true,
+				"断言message预期为 操作成功！": true
+			},
+			"testPassFailCounts": {
+				"断言响应状态码预期为 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"断言success预期为 true": {
+					"pass": 1,
+					"fail": 0
+				},
+				"断言code预期为 10000": {
+					"pass": 1,
+					"fail": 0
+				},
+				"断言message预期为 操作成功！": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				304
+			],
+			"allTests": [
+				{
+					"断言响应状态码预期为 200": true,
+					"断言success预期为 true": true,
+					"断言code预期为 10000": true,
+					"断言message预期为 操作成功！": true
+				}
+			]
+		},
+		{
+			"id": "2de9b3e6-7869-49b8-9ebb-5ed7c6b8a31c",
+			"name": "查询员工",
+			"url": "https://ihrm2-test.itheima.net/api/sys/user/1854382397496258560",
+			"time": 322,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"断言响应状态码预期为 200": true,
+				"断言success预期为 true": true,
+				"断言code预期为 10000": true,
+				"断言message预期为 操作成功！": true
+			},
+			"testPassFailCounts": {
+				"断言响应状态码预期为 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"断言success预期为 true": {
+					"pass": 1,
+					"fail": 0
+				},
+				"断言code预期为 10000": {
+					"pass": 1,
+					"fail": 0
+				},
+				"断言message预期为 操作成功！": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				322
+			],
+			"allTests": [
+				{
+					"断言响应状态码预期为 200": true,
+					"断言success预期为 true": true,
+					"断言code预期为 10000": true,
+					"断言message预期为 操作成功！": true
+				}
+			]
+		},
+		{
+			"id": "3e3cbd5e-ccb4-41d6-9a26-6d31d4496b8d",
+			"name": "修改员工",
+			"url": "https://ihrm2-test.itheima.net/api/sys/user/1854382397496258560",
+			"time": 341,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"断言 响应状态码 为 200": true,
+				"断言 success 的值为 true": true,
+				"断言 code 的值为 10000": true,
+				"断言 message 的值为 操作成功": true
+			},
+			"testPassFailCounts": {
+				"断言 响应状态码 为 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"断言 success 的值为 true": {
+					"pass": 1,
+					"fail": 0
+				},
+				"断言 code 的值为 10000": {
+					"pass": 1,
+					"fail": 0
+				},
+				"断言 message 的值为 操作成功": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				341
+			],
+			"allTests": [
+				{
+					"断言 响应状态码 为 200": true,
+					"断言 success 的值为 true": true,
+					"断言 code 的值为 10000": true,
+					"断言 message 的值为 操作成功": true
+				}
+			]
+		},
+		{
+			"id": "1cc05ab1-2a6b-475e-bc70-49d3aa47b857",
+			"name": "删除员工",
+			"url": "https://ihrm2-test.itheima.net/api/sys/user/1854382397496258560",
+			"time": 306,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"断言 响应状态码 为 200": true,
+				"断言 success 的值为 true": true,
+				"断言 code 的值为 10000": true,
+				"断言 message 的值为 操作成功": true
+			},
+			"testPassFailCounts": {
+				"断言 响应状态码 为 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"断言 success 的值为 true": {
+					"pass": 1,
+					"fail": 0
+				},
+				"断言 code 的值为 10000": {
+					"pass": 1,
+					"fail": 0
+				},
+				"断言 message 的值为 操作成功": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				306
+			],
+			"allTests": [
+				{
+					"断言 响应状态码 为 200": true,
+					"断言 success 的值为 true": true,
+					"断言 code 的值为 10000": true,
+					"断言 message 的值为 操作成功": true
+				}
+			]
+		},
+		{
+			"id": "b5d109fe-872f-483e-b7f7-34580467c125",
+			"name": "查询员工列表",
+			"url": "https://ihrm2-test.itheima.net/api/sys/user?page=1&size=10",
+			"time": 295,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"断言 响应状态码 为 200": true,
+				"断言 success 的值为 true": true,
+				"断言 code 的值为 10000": true,
+				"断言 message 的值为 操作成功": true
+			},
+			"testPassFailCounts": {
+				"断言 响应状态码 为 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"断言 success 的值为 true": {
+					"pass": 1,
+					"fail": 0
+				},
+				"断言 code 的值为 10000": {
+					"pass": 1,
+					"fail": 0
+				},
+				"断言 message 的值为 操作成功": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				295
+			],
+			"allTests": [
+				{
+					"断言 响应状态码 为 200": true,
+					"断言 success 的值为 true": true,
+					"断言 code 的值为 10000": true,
+					"断言 message 的值为 操作成功": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 9618,
+	"collection": {
+		"requests": [
+			{
+				"id": "2e280d96-c377-4fe8-a8b3-3beb150ac550",
+				"method": "POST"
+			},
+			{
+				"id": "f0b6bb16-a394-47c8-bb2b-2eca99cb3847",
+				"method": "POST"
+			},
+			{
+				"id": "65db529a-aadc-410c-8ea0-c8bb3d784fa2",
+				"method": "POST"
+			},
+			{
+				"id": "0152015d-ee6a-47f4-a40a-b420249d436b",
+				"method": "POST"
+			},
+			{
+				"id": "f77d7cb4-9706-4142-9ee5-d1780fbbe1d3",
+				"method": "POST"
+			},
+			{
+				"id": "8c50c488-9de5-4550-b5c5-e005e79f2dce",
+				"method": "POST"
+			},
+			{
+				"id": "afe64caf-cfbd-4d3b-8852-e5b43b05dc07",
+				"method": "POST"
+			},
+			{
+				"id": "5d5477e9-b14b-4c98-af1a-3e3408db9430",
+				"method": "POST"
+			},
+			{
+				"id": "d23289e1-10c0-48b0-9a4f-a898256dfa78",
+				"method": "POST"
+			},
+			{
+				"id": "309f436d-c47e-4f9e-9841-69bdd7b4c04d",
+				"method": "POST"
+			},
+			{
+				"id": "d93045be-b7b1-4936-8f70-9e954e2a6ff0",
+				"method": "POST"
+			},
+			{
+				"id": "09b11860-c1c8-41d2-b241-7ebeff5eb219",
+				"method": "POST"
+			},
+			{
+				"id": "04cb953d-30e3-4142-81f5-21dd0e75ab22",
+				"method": "POST"
+			},
+			{
+				"id": "0a403d0b-366e-4826-ab65-eb0b02ae51cf",
+				"method": "POST"
+			},
+			{
+				"id": "50ab58f1-53fa-4b5a-833c-1fa729bd6443",
+				"method": "POST"
+			},
+			{
+				"id": "55a92a70-6de2-42d6-9f84-c4e17320f82f",
+				"method": "POST"
+			},
+			{
+				"id": "4c5b4fc6-ae37-4a63-a005-1809b2c7aa78",
+				"method": "POST"
+			},
+			{
+				"id": "14d51419-9c07-421a-89e1-d7bf02182f9b",
+				"method": "POST"
+			},
+			{
+				"id": "98c3e129-3618-4d8e-baf8-c6d367bc84b6",
+				"method": "POST"
+			},
+			{
+				"id": "ca83a7fe-cc66-4adc-b365-b6ce78d952d0",
+				"method": "POST"
+			},
+			{
+				"id": "032d5934-acc8-4f3f-b685-2a656483d82c",
+				"method": "POST"
+			},
+			{
+				"id": "6a069a3d-a603-4035-b7fd-c7acd163ed73",
+				"method": "POST"
+			},
+			{
+				"id": "f32e60c8-45ae-444e-98a3-d086b2f4eb36",
+				"method": "GET"
+			},
+			{
+				"id": "76701eb3-7b7f-4efc-b672-0fe0e3c85edc",
+				"method": "GET"
+			},
+			{
+				"id": "fd05d601-4701-4e08-8490-c5c862ce2a4a",
+				"method": "POST"
+			},
+			{
+				"id": "8c1bba34-055f-41fd-94fe-8a2b81367532",
+				"method": "POST"
+			},
+			{
+				"id": "2de9b3e6-7869-49b8-9ebb-5ed7c6b8a31c",
+				"method": "GET"
+			},
+			{
+				"id": "3e3cbd5e-ccb4-41d6-9a26-6d31d4496b8d",
+				"method": "PUT"
+			},
+			{
+				"id": "1cc05ab1-2a6b-475e-bc70-49d3aa47b857",
+				"method": "DELETE"
+			},
+			{
+				"id": "b5d109fe-872f-483e-b7f7-34580467c125",
+				"method": "GET"
+			}
+		]
+	}
+}

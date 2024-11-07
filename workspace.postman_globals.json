@@ -1,0 +1,21 @@
+{
+	"id": "4b2d6364-1763-410b-8e8d-f9a212add3ee",
+	"values": [
+		{
+			"key": "env_token",
+			"value": "",
+			"type": "any",
+			"enabled": true
+		},
+		{
+			"key": "env_emp_id",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		}
+	],
+	"name": "Globals",
+	"_postman_variable_scope": "globals",
+	"_postman_exported_at": "2024-11-07T04:47:35.790Z",
+	"_postman_exported_using": "Postman/11.18.2"
+}
