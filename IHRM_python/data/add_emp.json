@@ -1,0 +1,42 @@
+[
+  {
+    "desc": "必选参数",
+    "json_data":
+    {
+      "username": "业务猪001",
+      "mobile": "13588882038",
+      "workNumber": "9527"
+    },
+    "status_code": 200,
+    "status": 10000,
+    "msg": "操作成功"
+  },
+  {
+    "desc": "组合参数",
+    "json_data":
+    {
+      "username": "业务猪001",
+      "mobile": "13588882038",
+      "workNumber": "9527",
+      "formOfEmployment": "2"
+    },
+    "status_code": 200,
+    "status": 10000,
+    "msg": "操作成功"
+  },
+  {
+    "desc": "全部参数",
+    "json_data":
+      {
+      "username": "大猪乔治",
+       "mobile": "13588882038",
+       "timeOfEntry": "2021-12-01", "formOfEmployment": 1,
+       "workNumber": "777888", "departmentName": "测试",
+       "departmentId": "1452603344685203456",
+       "correctionTime": "2021-12-30T16:00:00.000Z"
+      },
+    "status_code": 200,
+    "status": 10000,
+    "msg": "操作成功"
+  }
+]
